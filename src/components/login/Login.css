@@ -1,0 +1,46 @@
+.loginSection {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 25px;
+}
+
+.loginBox {
+  width: 500px;
+  height: 500px;
+  border: 2px solid rgb(14, 14, 61);
+  box-shadow: 2px 2px 20px 2px rgb(14, 14, 61, 0.8);
+}
+
+.logintitlesection {
+  border-bottom: rgb(14, 14, 61) 2px solid;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.logintitle {
+  margin: auto;
+}
+
+.loginBodySection {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.MuiFormControl-root.MuiTextField-root.field {
+  margin-top: 20px;
+}
+
+input#outlined-basic {
+  color: black;
+}
+
+label#outlined-basic-label {
+  color: #0f0f3f;
+}
